@@ -13,9 +13,12 @@ export default function Login() {
                     <input className="w-full p-[5px] text-[15px] rounded-[5px] border border-solid outline-0"  type="password" id="password" name="password" required/>
                 </div>
                 <div className="flex justify-end items-center mb-4">
-                    <a href="#" className="text-[13px] text-end text-blue-500">Forgot Password?</a>
+                    <a href="#" className="text-[13px] text-end text-blue-500 hover:underline">Forgot Password?</a>
                 </div>
                 <button type="submit" className="w-full p-[7px] bg-blue-600 text-[15px] text-white cursor-pointer rounded-[5px] transition-all duration-300 ease-linear">Login</button>
+                <div className="flex justify-end mt-4">
+                    <p href="#" className="text-[13px] text-end text-black">Don't have an account? <span className="text-blue-500 cursor-pointer hover:underline"><a href="#">Sign up</a></span></p>
+                </div>
             </form>
         </div>
     </>
